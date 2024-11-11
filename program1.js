@@ -5,7 +5,6 @@ const getTotalIsles = function (grid) {
   const cols = grid[0].length;
 
   const dfs = (i, j) => {
-    // Return if out of bounds or water
     if (i < 0 || i >= rows || j < 0 || j >= cols || grid[i][j] === 'W') {
       return;
     }
