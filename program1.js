@@ -9,7 +9,7 @@ const getTotalIsles = function (grid) {
       return;
     }
 
-    // Mark the current cell as water to avoid revisiting
+    
     grid[i][j] = 'W';
 
     // Explore the four possible directions
